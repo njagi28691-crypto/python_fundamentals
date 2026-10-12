@@ -1,6 +1,7 @@
 import argparse
 from text_analyzer import TextAnalyzer
 
+
 def main():
     parser = argparse.ArgumentParser(description="TextPulse: CLI Text Statistics & Formatting Utility")
     parser.add_argument("text", type=str, help="The input text string to analyze or transform.")
